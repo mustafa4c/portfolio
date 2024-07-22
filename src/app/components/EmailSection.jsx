@@ -117,7 +117,7 @@ const EmailSection = () => {
                 id="message"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
+                placeholder="Lets talk about..."
               />
             </div>
             <button

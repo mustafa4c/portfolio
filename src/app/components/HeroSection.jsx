@@ -36,7 +36,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
           Proudly, I
-          hold a bachelor's degree with honors in Information Technology
+          hold a bachelors degree with honors in Information Technology
           </p>
           <div>
             <Link
