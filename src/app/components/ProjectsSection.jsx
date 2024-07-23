@@ -10,7 +10,7 @@ const projectsData = [
     title: "Where Every Dog Finds a Home Online",
     description: "Providing all necessary services for dog care",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: [ "Web"],
     gitUrl: "https://github.com/mustafa4c/Pawmart",
     previewUrl: "https://github.com/mustafa4c/Pawmart",
   },
@@ -25,12 +25,12 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Portfolio Management",
-    description: "My own website and gallery of my work",
+    title: "Sweetopia Store",
+    description: "is a website specialized in selling cookies",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://www.behance.net/gallery/203795911/Sweetopia",
+    previewUrl: "https://www.behance.net/gallery/203795911/Sweetopia",
   },
   {
     id: 4,
@@ -58,6 +58,33 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/mustafa4c/Fruits",
     previewUrl: "https://github.com/mustafa4c/Fruits",
+  },
+  {
+    id: 7,
+    title: "WSP Global",
+    description: "Social Media Design",
+    image: "/images/projects/7.png",
+    tag: ["All", "Design"],
+    gitUrl: "https://www.behance.net/gallery/203287807/WSP-Global",
+    previewUrl: "https://www.behance.net/gallery/203287807/WSP-Global",
+  },
+  {
+    id: 8,
+    title: "Tropicana",
+    description: "Social Media Design",
+    image: "/images/projects/8.png",
+    tag: ["Design"],
+    gitUrl: "https://www.behance.net/portfolio/editor?project_id=166577381",
+    previewUrl: "https://www.behance.net/portfolio/editor?project_id=166577381",
+  },
+  {
+    id: 9,
+    title: "Cheetos",
+    description: "Social Media Design",
+    image: "/images/projects/9.png",
+    tag: ["Design"],
+    gitUrl: "https://www.behance.net/gallery/166577023/Cheetos",
+    previewUrl: "https://www.behance.net/gallery/166577023/Cheetos",
   },
 ];
 
@@ -94,6 +121,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
+        />
+                <ProjectTag
+          onClick={handleTagChange}
+          name="Design"
+          isSelected={tag === "Design"}
         />
         <ProjectTag
           onClick={handleTagChange}

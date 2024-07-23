@@ -9,12 +9,16 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Next.js</li>
-        <li>Firebase</li>
-        <li>MySQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Frameworks and Libraries: React, Next.js, Tailwind CSS, Bootstrap</li>
+        <li>Experience with Clerk, Strapi, and Wordprees</li>
+        <li>Basic knowledge of SQL and NoSQL</li>
+        <li>Understanding of server-side languages such as PHP</li>
+        <li>Working knowledge of RESTful APIs and Web Services</li>
+        <li>Knowledge of hardware components, installation, and troubleshooting</li>
+        <li>Understanding of backup and recovery procedures</li>
+        <li>Adobe Creative Suite Photoshop, Illustrator</li>
+        <li>UX/UI Design</li>
+        <li>Photography and Photo Editing</li>
       </ul>
     ),
   },
@@ -23,8 +27,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
         <li>Sudan Academy of Banking and Financial Sciences</li>
+        <li>Full Stack Academy of Code</li>
       </ul>
     ),
   },
@@ -47,12 +51,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          I am a highly motivated and detail-oriented web developer with 3+
+years of experience in designing and developing dynamic websites and web applications, proficient in HTML, CSS,
+JavaScript, and modern frameworks such as React, Next.js, Tailwind CSS, and Bootstrap, as well as content
+management systems such as Clerk, Strapi, and Wordprees. I am also a dedicated IT support specialist with 6
+months of experience in providing technical assistance and support for hardware, software, and network issues,
+adept at troubleshooting, problem-solving, and user training. Additionally. <br/>
+As a creative and detail-oriented graphic designer, I am eager to leverage my skills in Adobe Creative Suite and visual storytelling to develop innovative designs that enhance brand identity
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
