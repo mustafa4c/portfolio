@@ -90,7 +90,7 @@ const projectsData = [
     title: "Inventory Management System",
     description: "Add & Delete & Update & Read",
     image: "/images/projects/10.png",
-    tag: ["web"],
+    tag: ["Web"],
     gitUrl: "https://github.com/mustafa4c/Inventory-management",
     previewUrl: "https://github.com/mustafa4c/Inventory-management",
   },
