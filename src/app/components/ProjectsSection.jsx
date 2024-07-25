@@ -85,6 +85,14 @@ const projectsData = [
     tag: ["Design"],
     gitUrl: "https://www.behance.net/gallery/166577023/Cheetos",
     previewUrl: "https://www.behance.net/gallery/166577023/Cheetos",
+  },  {
+    id: 10,
+    title: "Inventory Management System",
+    description: "Add & Delete & Update & Read",
+    image: "/images/projects/10.png",
+    tag: ["web"],
+    gitUrl: "https://github.com/mustafa4c/Inventory-management",
+    previewUrl: "https://github.com/mustafa4c/Inventory-management",
   },
 ];
 
